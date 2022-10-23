@@ -1,0 +1,73 @@
+/* Css variables starts */
+
+:root {
+  --font: "Poppins", sans-serif;
+  --color1: #0a0030;
+  --color2: #faf9ff;
+  --color3: #4723d9;
+  --iconclr: #9fa4a6;
+  --color-white_O: rgba(255, 255, 255, 0.812);
+  --bg02: linear-gradient(190deg, #6e4ed2, #351d8f);
+  --color-light-blue: #d3c7f7;
+  --color-white: #ffffff;
+  --color-black: #070707;
+  --color-gray: #626369;
+  --bg01: #ecf0f3;
+  --orange: #f4bd35;
+  --bgBlack-less-opacity: #3f151557;
+  --efbg: #f0f8ff;
+  --green: #22c03c;
+  --red02: #ee335e;
+  --red03: #c3ac75;
+  --bg04: #dae1e7;
+
+  /**===== shodaw ======**/
+  --bxSd01: 10px 10px 20px #cbced1, -10px -10px 20px var(--color-white);
+  --bxSd02: inset 5px 5px 8px #cbced1, inset -5px -5px 8px var(--color-white);
+
+  --bxSd03: 4px 4px 8px rgb(189 200 213), -4px -4px 8px rgb(255 255 255);
+  --bxSd04: 0px 6px 5px 0px rgb(0 0 0 / 10%);
+}
+/* Css variables ends */
+
+/* =============================
+    .todo_list_two_page_css
+================================*/
+.todo_list_two_page .col-xl-6:nth-child(2) .todo_products .todo_product {
+  padding: 30px 15px 30px 15px !important;
+}
+.todo_list_two_page .col-xl-6:nth-child(2) .todo_products {
+  padding-left: 10px;
+}
+.todo_list_two_page .col-xl-6:nth-child(1) .catagories-boxes {
+  background: transparent;
+  box-shadow: 0px 0px 0px 0px;
+}
+.todo_list_two_page .col-xl-6:nth-child(1) .todo_products {
+  height: 330px;
+  align-items: inherit;
+}
+.todo_list_two_page .col-xl-6:nth-child(1) .todo_products .todo_product {
+  height: max-content;
+  justify-content: space-around;
+}
+.todo_list_two_page
+  .col-xl-6:nth-child(1)
+  .todo_products
+  .todo_product
+  .ctgry-icons {
+  padding-right: 0;
+}
+.todo_list_two_page
+  .col-xl-6:nth-child(1)
+  .todo_products
+  .todo_product
+  .ctgry-icons
+  ul
+  li:first-child
+  i {
+  color: var(--color-gray);
+}
+.todo_list_two_page_tgle .drag-text i {
+  background: var(--color-white) !important;
+}
